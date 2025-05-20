@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>BSU Academy</title>
+  <link rel="stylesheet" href="css/loginstyle.css">
+  <link rel="shortcut icon" href="images/profile.ico">  
+
+</head>
+<body>
+<div class="form_wrapper">
+  <div class="form_container">
+    <div class="title_container">
+      <h2>Kurs  Qeydiyyat Formu</h2>
+    </div>
+    <div class="row clearfix">
+      <div class="">
+        <form onsubmit="return false">
+          
+          <div class="row clearfix">
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="name" placeholder="Ad" />
+              </div>
+            </div>
+            <div class="col_half">
+              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                <input type="text" name="name" placeholder="Soyadınız" required />
+              </div>
+            </div>
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="input_field select_option">
+            <select>
+              <option>Kurs seçin....</option>
+              <option>Abituriyent Hazırlığı</option>
+              <option>Xarici Dil Hazırlığı</option>
+              <option>Proqramlaşdırma</option>
+              <option>Magistatura Hazırlığı</option>
+              <option>Məktəbəqədər Hazırlıq</option>
+              <option>Dövlət Qulluğuna Hazırlıq</option>
+            </select>
+            <div class="select_arrow"></div>
+          </div>
+            	<div class="input_field radio_option">
+              <input type="radio" name="radiogroup1" id="rd1">
+              <label for="rd1">ELmlər Filialı</label>
+              <input type="radio" name="radiogroup1" id="rd2">
+              <label for="rd2">Nərimanov Filialı</label>
+              <input type="radio" name="radiogroup1" id="rd3">
+              <label for="rd3">Xırdalan Filialı</label>
+              </div>
+            <div class="input_field checkbox_option">             
+            	<input type="checkbox" id="cb1">
+    			<label for="cb1"><a href="ÜMUMİ ŞƏRTLƏR.pdf" download target="_blank">Qaydaları</a> oxudum və razıyam</label>
+            </div>
+          <input class="button" type="submit" value="Göndər" />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://use.fontawesome.com/4ecc3dbb0b.js'></script>
+</body>
+</html>
